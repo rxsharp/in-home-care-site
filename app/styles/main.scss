@@ -1,0 +1,124 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+// endbower
+
+@import 'partials/colors';
+@import 'partials/typography';
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+.container {
+  width: 100%;
+  padding: 0px;
+}
+
+.header {
+  background-color: $primary-color;
+  color: $main-content;
+}
+.social ul {
+  list-style-type: none;
+}
+
+.social li {
+  display: inline-block;
+}
+
+.welcomeHeading {
+  text-align:center;
+}
+
+.mainParagraph {
+  text-align: center;
+}
+
+
+.main-content {
+ background-color: $main-content; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+}
+
+body {
+background-color: $primary-color;
+display: block;
+margin: 0px;
+padding: 0px;
+}
+
+html {  
+    margin-top: 0px;
+    background: #eaeaea;
+    padding: 0px 100px;
+}
+
+.footer {
+  background-color: $primary-color;
+  color: $main-content;
+}
+
+/* Media Queries */
+
+ /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+        
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+  }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
