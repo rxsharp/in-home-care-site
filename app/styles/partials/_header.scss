@@ -1,0 +1,36 @@
+/*
+Header section
+Consists of:
+ - .header
+ - .header-bar (The top section, call information with social buttons)
+ - .headerCard (The image and call information)
+ - *.nav menu will be in a separate partial
+*/
+
+.header {
+  background-color: $primary-color;
+  color: $main-content;
+  border-bottom: 10px solid $border-bottom;
+}
+
+/* Header Contact*/
+
+.headerContact {
+	font-size: 20px;
+	padding-top: 11px;
+	margin-bottom: 22px;
+}
+
+/*Social*/
+.social {
+padding-top: 11px;
+	float:right;
+	margin-bottom: 11px;
+}
+.social ul {
+  list-style-type: none;
+}
+
+.social li {
+  display: inline-block;
+}

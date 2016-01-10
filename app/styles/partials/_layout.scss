@@ -1,0 +1,31 @@
+.site-wrapper,
+.site-main {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  padding: 0px;
+}
+
+.main-content {
+ background-color: $main-content; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary-color;
+}
+
+body {
+background-color: $main-content;
+display: block;
+margin: 0px;
+padding: 0px;
+}
+
+html {  
+    margin-top: 0px;
+    background: #eaeaea;
+    padding: 0px 100px;
+}

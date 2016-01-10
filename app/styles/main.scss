@@ -6,7 +6,13 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 // endbower
 
 @import 'partials/colors';
+@import 'partials/layout';
 @import 'partials/typography';
+@import 'partials/header';
+@import 'partials/nav';
+@import 'partials/mainContent';
+@import 'partials/sideBar';
+@import 'partials/footer';
 
 .browsehappy {
   margin: 0.2em 0;
@@ -15,22 +21,6 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
   padding: 0.2em 0;
 }
 
-.container {
-  width: 100%;
-  padding: 0px;
-}
-
-.header {
-  background-color: $primary-color;
-  color: $main-content;
-}
-.social ul {
-  list-style-type: none;
-}
-
-.social li {
-  display: inline-block;
-}
 
 .welcomeHeading {
   text-align:center;
@@ -40,32 +30,6 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
   text-align: center;
 }
 
-
-.main-content {
- background-color: $main-content; 
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: $primary-color;
-}
-
-body {
-background-color: $primary-color;
-display: block;
-margin: 0px;
-padding: 0px;
-}
-
-html {  
-    margin-top: 0px;
-    background: #eaeaea;
-    padding: 0px 100px;
-}
-
-.footer {
-  background-color: $primary-color;
-  color: $main-content;
-}
 
 /* Media Queries */
 
