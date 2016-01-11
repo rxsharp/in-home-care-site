@@ -5,12 +5,17 @@
 }
 
 .container {
-  width: 100%;
-  padding: 0px;
+  width: 90%;
+  padding: 0 3.2rem;
+}
+
+.container-fluid {
+	padding: 0px;
 }
 
 .main-content {
- background-color: $main-content; 
+ background-color: $main-content;
+ padding: 22px 0;
 }
 
 h1, h2, h3, h4, h5, h6 {

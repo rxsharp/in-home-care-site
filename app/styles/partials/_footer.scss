@@ -1,5 +1,27 @@
 .footer {
   background-color: $primary-color;
   color: $main-content;
+  padding: 44px 0px;
   clear: both;
+}
+
+.widgetHeader {
+	color: $main-content;
+	text-align: center;
+}
+
+.footerSiteInfo {
+	float: left;
+}
+
+/*Social*/
+.social-footer {
+	float:right;
+}
+.social-footer ul {
+  list-style-type: none;
+}
+
+.social-footer li {
+  display: inline-block;
 }
