@@ -1,19 +1,67 @@
-.menu-container {
-  position: relative;
+.logoArea {
+	display: inline-block;
+	max-height: 200px;
+	background-color: rgba(255, 255, 255, 0.66);
 }
 
+.logoImage {
+	background: url("../images/logo.png") no-repeat;
+	display: block;
+	background-size: 100%;
+	width: 300px;
+	height: 200px;
+}
+
+.callActionArea {
+	position: relative;
+	float: right;
+	background-color: rgba(255, 255, 255, 0.66);
+	width: 45%;
+	text-align: right;
+	margin-top: 60px;
+}
+
+.callActionText {
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 700;
+	color: #171717;
+}
+.bluePhone {
+	font-size: 26px;
+	line-height: 26px;
+	font-weight: 700;
+	color: $primary-color;
+}
+
+.headerCard {
+	position: relative;
+	background: url("../images/hero-image.jpg") no-repeat;
+    width: 100%;
+    background-size: 100%;
+    background-position: 50% 55%;
+    min-height: 300px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+
+// Menu
+.menu-container {
+	position: relative;
+}
 .menu {
-  position: relative;
+position:relative;
   width: 100%;
   color: white;
   padding: 0px;
   line-height: 0px;
   display: block;
-  float: left;
 }
 .menu ul {
+  background: linear-gradient(to right, rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.8) 25%,rgba(255,255,255,0.8) 75%,rgba(255,255,255,0.2) 100%);
   text-align: center;
-  padding: 0px;
+  // padding: 0px !important;
+  list-style-type: none;
 }
 
 .menu li { 
@@ -29,12 +77,8 @@
   color: black;
   text-decoration:none;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
-}
-
-.menu ul {
-    list-style-type: none;
 }
 
 .menu a:hover {
@@ -47,7 +91,8 @@
 
 
 
-    /* Queries 800px menu change */ 
+
+ /* Queries 800px menu change */ 
     @media only screen and (max-width : 800px) {
         .topMenu {
         background: blue;
@@ -61,7 +106,11 @@
     /* Small Devices, Tablets */
     @media only screen and (min-width : 800px) {
         .screenMenu {
-        min-height: 50px;
+        	position:absolute;
+  			bottom: -10px;
+  			left: 10rem;
+  			right: 10rem;
+
         }
         .topMenu {
         display:none;
