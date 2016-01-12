@@ -1,13 +1,38 @@
 .sidebar {
 	width: 25.8333333333%;
 	float: right;
+	padding-top: 60px;
 }
 
 .careTypes li {
 list-style-type: none;
+padding: 2px 0px;
+}
+
+.careTypes ul {
+	padding-left:0px;
 }
 
 .formSocial li {
 	display: inline-block;
 	float: right;
+}
+
+.careBigBlue {
+	background-color: #144a80;
+    color: $main-content;
+    vertical-align: middle;
+    padding: 7px 20px;
+    text-align: center;
+    font-size: 24px;
+    background-size: cover;
+    border-radius: 4px;
+    display: block;
+    word-break: break-all;
+}
+
+.careBigBlue:hover {
+    background-color: rgba(20,74,128,.8);
+    text-decoration: none;
+    color: $main-content;
 }
