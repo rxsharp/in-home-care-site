@@ -1,28 +1,21 @@
 .logoArea {
 	display: inline-block;
-	max-height: 200px;
-	background-color: rgba(255, 255, 255, 0.66);
 }
 
 .logoImage {
 	background: url("../images/logo.png") no-repeat;
 	display: block;
 	background-size: 100%;
-	width: 300px;
-	height: 200px;
+  width: 100%;
+  min-height: 200px;
 }
 
-.callActionArea {
-	position: relative;
-	float: right;
-	background-color: rgba(255, 255, 255, 0.66);
-	width: 45%;
-	text-align: right;
-	margin-top: 60px;
+.imageCover {
+  width: 300px;
+  height: 200px;
 }
 
 .callActionText {
-	font-size: 24px;
 	line-height: 26px;
 	font-weight: 700;
 	color: #171717;
@@ -36,13 +29,9 @@
 
 .headerCard {
 	position: relative;
-	background: url("../images/hero-image.jpg") no-repeat;
     width: 100%;
-    background-size: 100%;
-    background-position: 50% 55%;
     min-height: 300px;
     padding-bottom: 0px;
-    padding-top: 30px;
 }
 
 // Menu

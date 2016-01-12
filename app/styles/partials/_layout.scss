@@ -29,8 +29,155 @@ margin: 0px;
 padding: 0px;
 }
 
-html {  
+
+@media only screen and (min-width : 320px) and (max-width : 540px) {
+.headerCard {
+	background: url("../images/hero-image.jpg") no-repeat;
+    width: 100%;
+    background-size: cover; 
+    background-position: center;
+    min-height: 300px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+ .logoArea {
+ 	position: relative;
+ 	display: inline-block;
+ 	width: 100%;
+ 	margin: 0px auto;
+ }
+
+.logoCover {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.66);
+  width: 100%;
+  margin: 0px auto;
+
+}
+
+.logoImage {
+	background: url("../images/logo.png") no-repeat;
+	display: block;
+	background-size: 100%;
+	width: 100%;
+	max-height: 150px;
+}
+
+.callActionArea {
+	margin-top:10px;
+	text-align: center;
+	padding-bottom:20px;
+}
+
+.callActionText {
+	font-size: 16px;
+	line-height: 16px;
+}
+
+
+}
+ /* Queries 800px layout change */ 
+    @media only screen and (min-width : 540px) and (max-width : 800px) {
+.headerCard {
+	background: url("../images/hero-image.jpg") no-repeat;
+    padding-top: 30px;
+    background-position: 50% 55%;
+    background-size: 100%;
+}
+
+
+ .logoArea {
+ 	position: relative;
+ 	display: inline-block;
+ 	width: 100%;
+ 	margin: 0px auto;
+ }
+
+.logoCover {
+  max-height: 200px;
+  background-color: rgba(255, 255, 255, 0.66);
+  width: 300px;
+  margin: 0px auto;
+}
+
+    html {  
+    margin-top: 0px;
+    background: #eaeaea;
+    padding: 0px;
+	}
+
+	.main-content {
+		width: 100%;
+		float: left;
+	}
+	.sidebar {
+		width: 100%;
+		float: left;
+	}
+.callActionArea {
+	margin-top:10px;
+	text-align: center;
+	padding-bottom:20px;
+}
+.callActionText {
+	font-size: 26px;
+	line-height: 26px;
+}
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 800px) {
+    	html {  
     margin-top: 0px;
     background: #eaeaea;
     padding: 0px 100px;
 }
+
+.headerCard {
+	background: url("../images/hero-image.jpg") no-repeat;
+    padding-top: 30px;
+    background-position: 50% 55%;
+    background-size: 100%;
+}
+
+ .logoArea {
+ 	position: relative;
+ 	float: left;
+ 	display: inline-block;
+ 	width: 40%;
+ 	margin: 0px;
+ }
+
+.logoCover {
+  max-height: 200px;
+  background-color: rgba(255, 255, 255, 0.66);
+  width: 300px;
+  margin: 0px;
+}
+
+
+.callActionArea {
+	position: relative;
+	float: right;
+	background-color: rgba(255, 255, 255, 0.66);
+	width: 45%;
+	text-align: right;
+	margin-top: 60px;
+}
+
+.callActionText {
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.main-content {
+	width: 65%;
+	float: left;
+}
+.sidebar {
+	width: 25.8333333333%;
+	float: right;
+	padding-top: 60px;
+}
+    }
