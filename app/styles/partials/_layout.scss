@@ -20,6 +20,32 @@
 
 h1, h2, h3, h4, h5, h6 {
   color: $primary-color;
+  font-weight: 700;
+}
+h1 {
+  line-height: 1.2;
+  font-size: 4.6rem;
+}
+
+h5 {
+	font-size: 1.6rem;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+}
+
+.btn {
+	font-size: 17px;
+	font-weight: bold;
+    background-color: #144a80;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.btn:hover {
+    background-color: rgba(20,74,128,.8);
+    text-decoration: none;
+    color: $main-content;
 }
 
 body {
@@ -27,6 +53,7 @@ background-color: $main-content;
 display: block;
 margin: 0px;
 padding: 0px;
+line-height: 1.6;
 }
 
 
