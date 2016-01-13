@@ -8,10 +8,51 @@
 .widgetHeader {
 	color: $main-content;
 	text-align: center;
+  font-size: 24px;
 }
 
+.navigationArea li{
+list-style-type:none;
+}
+
+.navigationArea a {
+  color:white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navigationArea a:hover {
+  color: #619BBF;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.sub-navigation > li > a:before {
+font-family: FontAwesome;
+content: '\f068';
+color: white;
+font-size: 8px;
+padding-right: 6px;
+margin-left: -15px;
+}
 .footerSiteInfo {
 	float: left;
+}
+.post-list li {
+  list-style-type: none;
+}
+.post-list li a {
+  color:white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.post-list li a:hover {
+  color: #619BBF;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /*Social*/
@@ -24,4 +65,18 @@
 
 .social-footer li {
   display: inline-block;
+}
+
+.social-footer .fa {
+  font-size: 14px;
+  color: white;
+  margin-left: 20px;
+}
+
+.footerFacebook:hover {
+  color: $fb;
+}
+
+.footerTwitter:hover {
+  color: $twitter;
 }
