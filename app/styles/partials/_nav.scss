@@ -1,3 +1,60 @@
+// TOP NAV
+
+.navbar-header {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+.navbar-header a {
+  background-color: $top-menu;
+  margin-left: 15px;
+  padding: 25px 160px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: left;
+  border: none;
+  border-radius: 0px;
+}
+
+.navbar-header a span {
+text-align: left;
+  padding: 15px 2px;
+  margin: 0px;
+  position: absolute;
+  left: 16px;
+}
+
+.navbar, .navbar-default, .navbar-fixed {
+  width: 320px;
+  background-color: $top-menu;
+}
+
+.navbar-collapse, .navbar-header {
+  border-top:none;
+  border-bottom: none;
+}
+
+.navbar-toggle, .collapsed, .navbar-toggle:hover, .collapsed:hover {
+  background-color: $top-menu;
+  margin-left: 15px;
+    padding: 25px 160px;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  float: left;
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: $top-menu;
+}
+
+.glyphicon-align-justify {
+  color: #FFF;
+  float: left;
+}
+
 .logoArea {
 	display: inline-block;
 }
@@ -84,7 +141,7 @@ position:relative;
  /* Queries 800px menu change */ 
     @media only screen and (max-width : 800px) {
         .topMenu {
-        background: blue;
+        background: $primary-color;
         min-height: 50px;
         }
         .screenMenu {
