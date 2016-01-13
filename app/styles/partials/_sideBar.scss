@@ -1,3 +1,9 @@
+.sidebar {
+    text-align: center;
+}
+.careTypes {
+    margin-bottom: 4.4rem;
+}
 .careTypes li {
 list-style-type: none;
 padding: 2px 0px;
@@ -7,10 +13,24 @@ padding: 2px 0px;
 	padding-left:0px;
 }
 
+.formSocial ul {
+    display: inline-block;
+    float: right;
+}
+
 .formSocial li {
 	display: inline-block;
-	float: right;
+    padding: 0px 3px;
 }
+
+.formSocial img {
+    opacity: .6;
+}
+
+.formSocial img:hover {
+    opacity: 1;
+}
+
 
 .careBigBlue {
 	background-color: #144a80;
@@ -26,7 +46,53 @@ padding: 2px 0px;
 }
 
 .careBigBlue:hover {
-    background-color: rgba(20,74,128,.8);
+    background-color: $blue-hover;
     text-decoration: none;
     color: $main-content;
 }
+
+.textLink {
+    color: $primary-color;
+    text-decoration: none;
+    font-style: bold;
+}
+.textLink:hover {
+    color: $blue-hover;
+    text-decoration: none;
+    font-style: bold;
+}
+
+
+.formArea, .formSocial {
+    padding-bottom: 4.4rem;
+}
+
+.formDescription {
+        font-size: 13px;
+}
+.asterisk {
+    color: rgb(255, 0, 0);
+}
+
+.form-control {
+    padding: 0px;
+    background-color: #eaecee;
+    box-shadow: none;
+    border: none;
+    width: 75%;
+    float: right;
+    color: #000;
+}
+
+.messageBox {
+    width: 100%;
+}
+
+label {
+    float: left;
+}
+
+.form-control::-webkit-input-placeholder { color: #000; }
+.form-control:-moz-placeholder { color: #000; }
+.form-control::-moz-placeholder { color: #000; }
+.form-control:-ms-input-placeholder { color: #000; }
