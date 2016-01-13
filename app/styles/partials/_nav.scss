@@ -196,7 +196,7 @@ position:relative;
 
 
  /* Queries 800px menu change */ 
-    @media only screen and (max-width : 800px) {
+    @media only screen and (max-width : 755px) {
         .topMenu {
         background: $primary-color;
         min-height: 50px;
@@ -207,7 +207,7 @@ position:relative;
     }
 
     /* Small Devices, Tablets */
-    @media only screen and (min-width : 800px) {
+    @media only screen and (min-width : 756px) {
         .screenMenu {
         	position:absolute;
   			bottom: -10px;
